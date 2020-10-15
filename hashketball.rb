@@ -164,6 +164,7 @@ end
 def team_names
   arr = Array.new
   arr.push(game_hash[:home][:team_name],game_hash[:away][:team_name])
+  binding.pry
 end
 
 def player_numbers(team_name)
